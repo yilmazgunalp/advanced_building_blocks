@@ -1,3 +1,4 @@
+
 module Enumerable
   def my_each
     if self.class == Array
@@ -141,4 +142,3 @@ array = [1, 2, 3, 4, 5, 6].my_inject([]) do |result, element|
   result << element.to_s if element.even?
   result
 end
-multiply_els [2, 4, 5]
